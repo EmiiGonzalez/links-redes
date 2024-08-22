@@ -1,22 +1,19 @@
-import {Link} from "./components/Link";
-import {Footer} from "./components/Footer";
-import {useEffect} from "react";
-import './assets/styles/global.css'
-import 'bootstrap-icons/font/bootstrap-icons.css'
+import { Link } from "./components/Link";
+import { Footer } from "./components/Footer";
+import { useEffect } from "react";
+import "./assets/styles/global.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   const tittle = navigator.language.startsWith("es") ? "Mis Links" : "My Links";
 
   useEffect(() => {
-    document.title = tittle
-  }, [tittle])
-
+    document.title = tittle;
+  }, [tittle]);
 
   return (
     <div className="main_container">
-      <h1 className="title">
-        {tittle}
-      </h1>
+      <h1 className="title">{tittle}</h1>
       <div className="links_box">
         <Link
           link="https://www.linkedin.com/in/emiigonzalez33/"
@@ -31,6 +28,12 @@ function App() {
           color="color_red"
         />
         <Link
+          link="https://tech-library-iota.vercel.app/"
+          text="TechLibrary"
+          icon="bi bi-book"
+          color="color_pink"
+        />
+        <Link
           link="emigonzalez3333@gmail.com"
           text="Email"
           icon="bi bi-envelope-at-fill"
@@ -39,7 +42,7 @@ function App() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
