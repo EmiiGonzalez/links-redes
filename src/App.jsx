@@ -3,9 +3,12 @@ import { Footer } from "./components/Footer";
 import { useEffect } from "react";
 import "./assets/styles/global.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import useViewportHeight from "./hook/useViewportHeight";
 
 function App() {
   const tittle = navigator.language.startsWith("es") ? "Mis Links" : "My Links";
+
+  useViewportHeight();
 
   useEffect(() => {
     document.title = tittle;
