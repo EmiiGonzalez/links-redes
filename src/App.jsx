@@ -1,0 +1,45 @@
+import {Link} from "./components/Link";
+import {Footer} from "./components/Footer";
+import {useEffect} from "react";
+import './assets/styles/global.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
+function App() {
+  const tittle = navigator.language.startsWith("es") ? "Mis Links" : "My Links";
+
+  useEffect(() => {
+    document.title = tittle
+  }, [tittle])
+
+
+  return (
+    <div className="main_container">
+      <h1 className="title">
+        {tittle}
+      </h1>
+      <div className="links_box">
+        <Link
+          link="https://www.linkedin.com/in/emiigonzalez33/"
+          text="LinkedIn"
+          icon="bi bi-linkedin"
+          color="color_blue"
+        />
+        <Link
+          link="https://github.com/EmiiGonzalez"
+          text="GitHub"
+          icon="bi bi-github"
+          color="color_red"
+        />
+        <Link
+          link="emigonzalez3333@gmail.com"
+          text="Email"
+          icon="bi bi-envelope-at-fill"
+          color="color_green"
+        />
+      </div>
+      <Footer />
+    </div>
+  )
+}
+
+export default App
