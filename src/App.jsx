@@ -25,6 +25,12 @@ function App() {
           color="color_blue"
         />
         <Link
+          link="https://portafolio-emiliano-gonzalez-s-projects.vercel.app/"
+          text="Portafolio"
+          icon="bi bi-globe"
+          color="color_yellow"
+        />
+        <Link
           link="https://github.com/EmiiGonzalez"
           text="GitHub"
           icon="bi bi-github"
