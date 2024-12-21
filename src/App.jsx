@@ -48,6 +48,12 @@ function App() {
           icon="bi bi-envelope-at-fill"
           color="color_green"
         />
+        <Link
+          link="https://www.oracle.com/ar/education/oracle-next-education/"
+          text="Oracle ONE"
+          icon="bi bi-code-slash"
+          color="color_red"
+        />
       </div>
       <Footer />
     </div>
