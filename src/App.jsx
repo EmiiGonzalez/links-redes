@@ -49,6 +49,12 @@ function App() {
           color="color_green"
         />
         <Link
+          link="https://discord.gg/sy7X9YTCAp"
+          text="Server Discord"
+          icon="bi bi-discord"
+          color="color_blue"
+        />
+        <Link
           link="https://www.oracle.com/ar/education/oracle-next-education/"
           text="Oracle ONE"
           icon="bi bi-code-slash"
