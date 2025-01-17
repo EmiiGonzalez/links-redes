@@ -60,6 +60,12 @@ function App() {
           icon="bi bi-code-slash"
           color="color_red"
         />
+        <Link
+          link="https://cs50.harvard.edu/x/2025/"
+          text="Harvard CS50"
+          icon="bi bi-book"
+          color="color_pink"
+        />
       </div>
       <Footer />
     </div>
