@@ -25,6 +25,12 @@ function App() {
           color="color_blue"
         />
         <Link
+          link="https://docs.google.com/forms/d/1A-FzB80qRorcRjrr22JBGhavU0E5JKkuKu8gYqTKIr0/viewform?pli=1&edit_requested=true"
+          text="Testea la App Cortate Bien"
+          icon="bi bi-check2-square"
+          color="color_green"
+         />
+        <Link
           link="https://portafolio-emiliano-gonzalez-s-projects.vercel.app/"
           text="Portafolio"
           icon="bi bi-globe"
@@ -53,18 +59,6 @@ function App() {
           text="Server Discord"
           icon="bi bi-discord"
           color="color_blue"
-        />
-        <Link
-          link="https://www.oracle.com/ar/education/oracle-next-education/"
-          text="Oracle ONE"
-          icon="bi bi-code-slash"
-          color="color_red"
-        />
-        <Link
-          link="https://cs50.harvard.edu/x/2025/"
-          text="Harvard CS50"
-          icon="bi bi-book"
-          color="color_pink"
         />
       </div>
       <Footer />
