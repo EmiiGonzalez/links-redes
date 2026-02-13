@@ -25,12 +25,6 @@ function App() {
           color="color_blue"
         />
         <Link
-          link="https://docs.google.com/forms/d/1A-FzB80qRorcRjrr22JBGhavU0E5JKkuKu8gYqTKIr0/viewform?pli=1&edit_requested=true"
-          text="Testea la App Cortate Bien"
-          icon="bi bi-check2-square"
-          color="color_green"
-         />
-        <Link
           link="https://portafolio-emiliano-gonzalez-s-projects.vercel.app/"
           text="Portafolio"
           icon="bi bi-globe"
@@ -43,22 +37,10 @@ function App() {
           color="color_red"
         />
         <Link
-          link="https://tech-library-iota.vercel.app/"
-          text="TechLibrary"
-          icon="bi bi-book"
-          color="color_pink"
-        />
-        <Link
-          link="emigonzalez3333@gmail.com"
+          link="emidev06@gmail.com"
           text="Email"
           icon="bi bi-envelope-at-fill"
           color="color_green"
-        />
-        <Link
-          link="https://discord.gg/sy7X9YTCAp"
-          text="Server Discord"
-          icon="bi bi-discord"
-          color="color_blue"
         />
       </div>
       <Footer />
